@@ -5,6 +5,7 @@ from modules.speech_service import SpeechService
 from modules.llm import LLMService
 from modules.rag import RAGService
 from modules.pipeline import QueryPipeline
+from modules.eligibility import EligibilityEngine, UserProfile
 
 __all__ = [
     "BhashiniClient",
@@ -12,4 +13,6 @@ __all__ = [
     "LLMService",
     "RAGService",
     "QueryPipeline",
+    "EligibilityEngine",
+    "UserProfile",
 ]

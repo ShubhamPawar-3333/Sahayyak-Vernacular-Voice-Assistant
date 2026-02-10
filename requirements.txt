@@ -19,6 +19,10 @@ chromadb>=0.4.0
 # Audio processing
 pydub>=0.25.1
 
+# Embeddings & document processing
+sentence-transformers>=2.2.0
+unstructured>=0.10.0
+
 # LLMOps (optional)
 langsmith>=0.1.0
 
